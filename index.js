@@ -9,5 +9,7 @@ let randomColor= ()=>`rgb(${randomInt(0,255)},${randomInt(0,255)},${randomInt(0,
 colorChangerBtn.addEventListener('click',function(e){
     body.style.backgroundColor=randomColor();
     colorCode.innerHTML= randomColor();
+    colorCode.classList.remove('hidden');
+
 
 })
