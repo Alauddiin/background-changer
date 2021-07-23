@@ -1,0 +1,41 @@
+ 
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    width:100vw;
+    height:100vh;
+
+}
+
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#color-changer-btn{
+    background-color: rgb(234, 5, 255);
+    padding: 15px 20px;
+    outline: none;
+    border-radius: 5px;
+    color:#fff;
+    border:1px solid #fff;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+
+
+}
+#color-code{
+    font-size: 18px;
+    border:1px solid #fff;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    outline: none;
+
+}
